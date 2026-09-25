@@ -34,3 +34,28 @@ Constraints: zero capital, zero owner credentials. Log every outcome; gated chan
 3. Social identity: LinkedIn/Reddit/HN/X posts (drafts ready).
 
 Once any gate clears, re-route per channel plans (KDE-5 for D1, KDE-9 for D2).
+
+---
+
+# Cycle 4 — 2026-09-25, KDE-19 (G1/G2/G4 staging + republish)
+
+**Discovered:** org suspension killed all 8 cycle-3 channels (all Pages URLs 404, repos gone). Verified: `https://altaranexus-ship-it.github.io/*` → 404; `git ls-remote` → repository not found.
+
+**Republished under aaron11998 (all verified HTTP 200 on 2026-09-25):**
+
+| # | Channel | Outcome | Evidence |
+|---|---------|---------|----------|
+| R1 | Storefront / research index | LIVE | https://aaron11998.github.io/kdense-science-lab/ |
+| R2 | Pages D1 | LIVE | https://aaron11998.github.io/ai-clinical-trials-2026/ |
+| R3 | Pages D2 | LIVE | https://aaron11998.github.io/ai-drug-discovery-2026/ |
+| R4 | Repos ×3 | LIVE | github.com/aaron11998/{kdense-science-lab,ai-clinical-trials-2026,ai-drug-discovery-2026} |
+| R5 | Releases | LIVE | .../releases/tag/v1.0.1 (D1), v1.0.0 (D2) |
+| R6 | releases.atom ×2 | LIVE (200) | per repo |
+| R7 | Discussions ×3 | LIVE | has_discussions=true ×3 (API-verified) |
+| R8 | URL migration | 43 mentions updated across 3 trees (22 storefront / 7 D1 / 14 D2) | commits in each repo |
+
+**G1 payment rails:** staged to the agent maximum — paste-ready Gumroad product copy ($490/$1,900/$6,000yr), processor rationale, storefront wiring plan. M1 reduced to 4 owner-only sub-steps: `~/Dolly/kdense/deliverables/syndication-staging/G1-OWNER-STEPS-payment-rails.md`. Storefront converts to live checkout same-day when the owner returns the 3 product URLs.
+
+**G2 LinkedIn + G4 Reddit/HN/X:** paste-ready drafts staged (LinkedIn native post + 300w cut; r/datasets, r/clinicalresearch, r/bioinformatics; Show HN body; 7-post X thread; stagger schedule): `~/Dolly/kdense/deliverables/syndication-staging/g2-g4-posts-drafts.md`. Posting remains owner-only (identity/karma).
+
+Sold: still 0 (cycle-3 channels died before any sale; new URL set is the attribution base going forward).
