@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>K-Dense Science Lab — Research Storefront</title>
+<meta name="description" content="K-Dense Science Lab: open, reproducible market-grade research datasets and reports on AI in the life sciences. Free core data, paid analyst tiers.">
+<style>
+  :root { --ink:#0b1322; --paper:#f7f9fc; --accent:#116456; --accent2:#0e4f45; --line:#dbe3ec; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:var(--paper); line-height:1.55; }
+  header { background:linear-gradient(135deg,var(--accent2),var(--accent)); color:#fff; padding:3.2rem 1.2rem 2.6rem; text-align:center; }
+  header h1 { font-size:2rem; letter-spacing:.5px; }
+  header p { max-width:46rem; margin:0.9rem auto 0; opacity:.93; font-size:1.03rem; }
+  .wrap { max-width:60rem; margin:0 auto; padding:2.4rem 1.2rem 4rem; }
+  h2 { font-size:1.35rem; margin:2.4rem 0 1rem; border-bottom:2px solid var(--accent); padding-bottom:.35rem; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:10px; padding:1.4rem 1.5rem; margin-bottom:1.2rem; }
+  .card h3 { font-size:1.12rem; margin-bottom:.5rem; }
+  .card .meta { color:#5b6b7e; font-size:.88rem; margin-bottom:.7rem; }
+  .card ul { margin:.4rem 0 .8rem 1.2rem; }
+  .btn { display:inline-block; background:var(--accent); color:#fff !important; text-decoration:none; padding:.5rem .95rem; border-radius:7px; font-size:.92rem; margin-right:.5rem; margin-top:.4rem; }
+  .btn.ghost { background:transparent; color:var(--accent) !important; border:1.5px solid var(--accent); }
+  table { width:100%; border-collapse:collapse; background:#fff; font-size:.94rem; }
+  th,td { border:1px solid var(--line); padding:.6rem .7rem; text-align:left; vertical-align:top; }
+  th { background:#eef3f8; }
+  .badge { display:inline-block; background:#e5f3f0; color:var(--accent2); font-size:.75rem; font-weight:600; padding:.15rem .55rem; border-radius:99px; margin-left:.4rem; vertical-align:middle; }
+  footer { text-align:center; color:#5b6b7e; font-size:.85rem; padding:2rem 1rem 3rem; }
+  a { color:var(--accent2); }
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"K-Dense Science Lab","url":"https://aaron11998.github.io/kdense-science-lab/"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Dataset","name":"The State of AI in Clinical Trials - 2026","description":"Registry-scale dataset and market analysis of 4,250 AI/ML-flagged studies from ClinicalTrials.gov (CC0 data, MIT code, reproducible pipeline).","url":"https://github.com/aaron11998/ai-clinical-trials-2026","sameAs":["https://aaron11998.github.io/ai-clinical-trials-2026/"],"license":"https://creativecommons.org/publicdomain/zero/1.0/","creator":{"@type":"Organization","name":"K-Dense Science Lab"},"keywords":["clinical trials","artificial intelligence","health AI","market research"]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Dataset","name":"The State of AI in Drug Discovery and Development - 2026","description":"Longitudinal dataset and market analysis of ~18,000 AI drug-discovery research works from OpenAlex (CC0 data, MIT code, reproducible pipeline).","url":"https://github.com/aaron11998/ai-drug-discovery-2026","sameAs":["https://aaron11998.github.io/ai-drug-discovery-2026/"],"license":"https://creativecommons.org/publicdomain/zero/1.0/","creator":{"@type":"Organization","name":"K-Dense Science Lab"},"keywords":["drug discovery","artificial intelligence","machine learning","OpenAlex"]}
+</script>
+</head>
+<body>
+<header>
+  <h1>K-Dense Science Lab</h1>
+  <p>Open, reproducible, market-grade research on AI in the life sciences.<br>
+  Full datasets and pipelines are free and open (CC0 data / MIT code). Analyst tiers sell curation, interpretation, and freshness — never raw access.</p>
+</header>
+<div class="wrap">
+
+  <h2>Research Deliverables</h2>
+
+  <div class="card">
+    <h3>The State of AI in Clinical Trials — 2026 <span class="badge">Deliverable D1</span></h3>
+    <div class="meta">4,250-study dataset from ClinicalTrials.gov (public domain) &middot; deterministic stdlib pipeline &middot; 9/9 QA checks passed &middot; v1.0.1</div>
+    <ul>
+      <li>Registry-scale analysis of AI adoption across 4,250 interventional and observational studies</li>
+      <li>Phase-by-phase growth, therapeutic-area concentration, sponsor landscape</li>
+      <li>4 publication-grade figures, full report (MD + PDF), JSONL + CSV dataset, reproducible pipeline</li>
+    </ul>
+    <a class="btn" href="https://github.com/aaron11998/ai-clinical-trials-2026">Open repo (free)</a>
+    <a class="btn ghost" href="https://aaron11998.github.io/ai-clinical-trials-2026/">Browse online</a>
+  </div>
+
+  <div class="card">
+    <h3>The State of AI in Drug Discovery &amp; Development — 2026 <span class="badge">Deliverable D2</span></h3>
+    <div class="meta">18k-paper OpenAlex dataset (CC0) &middot; 17-check QA pass &middot; 4 figures &middot; reproducible stdlib pipeline &middot; v1.0.0</div>
+    <ul>
+      <li>Six-year longitudinal view of the AI drug-discovery literature (9.2&times; growth)</li>
+      <li>Upstream-research-vs-downstream-validation funnel: the "broken middle" finding</li>
+      <li>Cross-linked with D1: literature signal vs. clinical-trial validation</li>
+    </ul>
+    <a class="btn" href="https://github.com/aaron11998/ai-drug-discovery-2026">Open repo (free)</a>
+    <a class="btn ghost" href="https://aaron11998.github.io/ai-drug-discovery-2026/">Browse online</a>
+  </div>
+
+  <h2>Analyst Tiers</h2>
+  <table>
+    <tr><th>Tier</th><th>Price</th><th>Contents</th><th>For</th></tr>
+    <tr><td><b>Open</b></td><td>Free</td><td>Full datasets (JSONL+CSV), pipeline code, full reports, figures, licenses</td><td>Everyone — the top of funnel</td></tr>
+    <tr><td><b>Analyst</b></td><td>$490 one-time</td><td>Everything in Open + 20-slide summary deck + therapeutic-area heat maps + shareable charts pack</td><td>Individual analysts, consultants</td></tr>
+    <tr><td><b>Team</b></td><td>$1,900 one-time</td><td>Analyst + per-vertical deep dives (oncology, cardiology, ophthalmology) + 60-min briefing + 5 seats</td><td>Startup BD teams, small CROs</td></tr>
+    <tr><td><b>Enterprise</b></td><td>$6,000/yr</td><td>Team + quarterly data refresh + custom cuts on request + unlimited seats</td><td>Pharma BD/CI teams, VCs, CRO strategy</td></tr>
+  </table>
+  <p style="margin-top:.8rem; font-size:.9rem; color:#5b6b7e;">Add-ons: custom geography/TA cut $750 &middot; on-demand refresh $350 &middot; white-label +$2,000 &middot; live tailored briefing $600.</p>
+
+  <h2>How to Acquire / Contact</h2>
+  <div class="card">
+    <p>Open tiers are immediately available in the repositories above. Paid tiers are sold as analyst work products:</p>
+    <ol style="margin:.6rem 0 .6rem 1.3rem;">
+      <li>Open a request in the <a href="https://github.com/aaron11998/kdense-science-lab/discussions">storefront Discussions board</a> (no account-gated marketplace needed) naming your tier and cut.</li>
+      <li>We confirm scope, deliverable date, and invoice terms (bank transfer / invoice — no card rails required).</li>
+      <li>Delivery via signed release + private handoff, with the paid addenda built by the same QA-gated pipeline as the public reports.</li>
+    </ol>
+    <p style="font-size:.9rem; color:#5b6b7e;">Self-serve card checkout is being provisioned and is not yet live; enterprise procurement via invoice is available today.</p>
+  </div>
+
+  <h2>Licensing &amp; Method</h2>
+  <div class="card">
+    <ul style="margin-left:1.2rem;">
+      <li><b>Data:</b> public-domain / CC0 sources only (ClinicalTrials.gov, OpenAlex), attribution provided in each repo's DATA_LICENSE and CITATION.cff.</li>
+      <li><b>Code:</b> MIT. Every number regenerates from source via the shipped stdlib pipeline — no black boxes.</li>
+      <li><b>QA:</b> independent methodology review before release (checklists published in-repo).</li>
+    </ul>
+  </div>
+
+  <h2>Support the Lab</h2>
+  <div class="card">
+    <p>All public datasets are free (CC0). If our work saves you time, a small tip keeps the lab running —
+    tips are fully on-chain COOK transfers signed with your own wallet; this site never touches keys or transaction bytes.</p>
+    <script src="https://aaron11998.github.io/cookie-crumbs/embed.js" data-label="Support open research 🍪" data-via="2BmqohyRU8mprrRXtUokCBje52MBKFd3FWNCcsPLJf3k"></script>
+  </div>
+
+</div>
+<footer>K-Dense Science Lab &middot; research index &amp; storefront &middot; provisioned 2026-09 &middot; hosting: GitHub Pages (static, zero-capital)</footer>
+</body>
+</html>
